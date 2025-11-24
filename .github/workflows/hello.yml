@@ -3,7 +3,7 @@ on: [push]
 jobs:
   ouput_hello_world:
     name: Output Hello world
-    runs-on: ubunto-laest
+    runs-on: ubunto-latest
     steps:
     - uses: actions/checkout@v4
     - name: Run a script
